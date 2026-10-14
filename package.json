@@ -1,0 +1,14 @@
+{
+  "name": "carepulse-healthcare-fullstack",
+  "version": "1.0.0",
+  "description": "Full Stack Healthcare System with React, Node.js, Express & MySQL",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev"
+  },
+  "keywords": ["healthcare", "hospital", "ehr", "mysql", "react", "express"],
+  "author": "Healthcare Dev Team",
+  "license": "MIT"
+}
